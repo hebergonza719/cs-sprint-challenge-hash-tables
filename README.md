@@ -23,11 +23,24 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+These functions receive data and outputs that data in numbers. These should produce hashes that are consistent, within a specific range and input data should return different numbers.
+
 2. Collision resolution
+This is a way to handle collisions in hash tables. Collisions occur when data is stored in a hashtable but ends up in an occupied index. One option is to store linked list in indexes which allow for data to be stored in the same index, but in a link list within each index.
+
 3. Performance of basic hash table operations
+A hash table's performance for basic operations should be O(1).
+
 4. Load factor
+The load factor is the number of items in a hash table over total number of slots or buckets. 
+
 5. Automatic resizing
+The load factor needs to be taken into account; as a rule of thumb, if the load factor exceeds 0.7%, then the hash table should be re-sized to double it's capacity.
+
 6. Various use cases for hash tables
+For lookups, such as a phone book, records, etc.
+Also for duplicate prevention like storing users and a voting system.
+Servers also use hash tables to cache data in order to retrieve information quicker.
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
